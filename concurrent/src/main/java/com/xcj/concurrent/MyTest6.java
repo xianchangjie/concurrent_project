@@ -16,7 +16,6 @@ public class MyTest6 {
         MyThread myThread = new MyThread();
         Thread thread = new Thread(myThread,"A");
         thread.start();
-
     }
 
     /**
